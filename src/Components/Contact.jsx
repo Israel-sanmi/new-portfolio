@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="mt-10 h-screen flex justify-center items-center">
+    <div id="contact" className="mt-10  h-screen flex justify-center items-center">
       <div className="">
         <h1 className="font-semibold text-2xl">Contact Me!</h1>
         <p className="text-sm text-teal-500 font-bold">
@@ -38,7 +38,7 @@ const Contact = () => {
           Phone number: +2347045008685
         </p>
         <div>
-          <form ref={form} onSubmit={sendEmail} className="">
+          <form ref={form} onSubmit={sendEmail} className="text-black">
             <div className="grid gap-2 md:grid-cols-2 grid-cols-1 my-5">
               <input
                 type="text"
